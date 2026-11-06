@@ -34,6 +34,12 @@ Each game offers adjustable difficulty (sequence length, grid size, reaction win
 
 > DCCS Card Sorting now draws colors and shapes from independent pools and combines them randomly every round, so a red card is no longer always a circle. Flanker Task, Trail Making (TMT-B), Task Switching, and Serial Addition were added to cover inhibitory control, task switching, and working memory.
 
+## 📱 Mobile app (Expo)
+
+The `mobile/` folder contains a React Native / Expo / TypeScript app with a
+**Verbal N-Back** module (adaptive 2-/3-back, letters A–H). See
+[`mobile/README.md`](mobile/README.md) for the specification, architecture and tests.
+
 ## 🧩 Tech Stack
 
 - [Vue 3](https://vuejs.org/) with `<script setup>` SFCs
